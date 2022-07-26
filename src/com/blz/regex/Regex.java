@@ -5,7 +5,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Regex {
-    final String PASSWORD_REGEX = "^[A-Z]{1,}[A-Za-z]{7,}$";
+    final String PASSWORD_REGEX = "^[A-Z]{1,}[A-Za-z]{6,}[0-9]{1,}$";
     Scanner sc = new Scanner(System.in);
 
     public void validPassword() {
